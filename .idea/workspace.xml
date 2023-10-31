@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ccae0e6-917e-4273-a0a5-cf3c3e6c3f08" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Paragraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Subchapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TableOfContents.java" afterDir="false" />
+    <list default="true" id="3ccae0e6-917e-4273-a0a5-cf3c3e6c3f08" name="Changes" comment="laboratorul 2 ---&gt; clase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +33,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "settings.editor.selected.configurable": "configurable.group.build"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="SPLAB-FlorinaLascu" />
@@ -61,7 +57,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -74,6 +74,11 @@
       <option name="presentableId" value="Default" />
       <updated>1698412665343</updated>
       <workItem from="1698412668244" duration="4515000" />
+      <workItem from="1698417790021" duration="40000" />
+      <workItem from="1698417863694" duration="20000" />
+      <workItem from="1698739799524" duration="200000" />
+      <workItem from="1698740024534" duration="488000" />
+      <workItem from="1698740522494" duration="176000" />
     </task>
     <servers />
   </component>
@@ -90,5 +95,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="laboratorul 2 ---&gt; clase" />
+    <option name="LAST_COMMIT_MESSAGE" value="laboratorul 2 ---&gt; clase" />
   </component>
 </project>
