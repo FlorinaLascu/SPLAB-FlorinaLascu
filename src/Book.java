@@ -3,44 +3,28 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Book {
+public class Book extends Section{
 
     private String title;
     private List<Author> authors;
     private TableOfContents tableOfContents;
-    private List<Chapter> chapters;
+
 
     public Book(String title) {
-        this.title = title;
+        super(title);
         this.authors = new ArrayList<>();
-        this.chapters = new ArrayList<>();
     }
 
-    @Override
-    public String toString() {
-        return "Book: " + title;
-    }
 
     public void print() {
-        System.out.println(this);
+
+            for (Author author:authors) {
+                author.print();
+            }
+            super.print();
     }
 
     public void addAuthor(Author author) {
         authors.add(author);
     }
-
-    public int createChapter(String chapterTitle) {
-        Chapter chapter = new Chapter(chapterTitle);
-        chapters.add(chapter);
-
-        return chapters.size() - 1;
-    }
-
-    public Chapter getChapter(int index) throws Exception {
-        if(index >= 0 && index < chapters.size()) {
-            return chapters.get(index);
-
-        } else throw new Exception();
-    }
-
 }

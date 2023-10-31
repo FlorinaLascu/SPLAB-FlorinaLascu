@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ccae0e6-917e-4273-a0a5-cf3c3e6c3f08" name="Changes" comment="laboratorul 2 ---&gt; clase">
+    <list default="true" id="3ccae0e6-917e-4273-a0a5-cf3c3e6c3f08" name="Changes" comment="laboratorul 3 ---&gt; clase">
+      <change afterPath="$PROJECT_DIR$/src/Section.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Element.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Paragraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paragraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Subchapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +26,22 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="laborator3" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="laborator2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,8 +79,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
@@ -79,7 +101,17 @@
       <workItem from="1698739799524" duration="200000" />
       <workItem from="1698740024534" duration="488000" />
       <workItem from="1698740522494" duration="176000" />
+      <workItem from="1698740838346" duration="269000" />
+      <workItem from="1698744368884" duration="4266000" />
     </task>
+    <task id="LOCAL-00001" summary="laboratorul 3 ---&gt; clase">
+      <created>1698740970326</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698740970326</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +130,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="laboratorul 2 ---&gt; clase" />
-    <option name="LAST_COMMIT_MESSAGE" value="laboratorul 2 ---&gt; clase" />
+    <MESSAGE value="laboratorul 3 ---&gt; clase" />
+    <option name="LAST_COMMIT_MESSAGE" value="laboratorul 3 ---&gt; clase" />
   </component>
 </project>

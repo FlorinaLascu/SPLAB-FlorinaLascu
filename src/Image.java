@@ -1,7 +1,7 @@
 public class Image implements Element{
 
     private String imageName;
-    private Subchapter subchapter;
+
 
     public Image(String imageName) {
         this.imageName = imageName;
@@ -14,5 +14,20 @@ public class Image implements Element{
 
     public void print() {
         System.out.println(this);
+    }
+
+    @Override
+    public void add(Element element) {
+
+    }
+
+    @Override
+    public void remove(Element element) {
+
+    }
+
+    @Override
+    public int get(Element element) {
+        return 0;
     }
 }

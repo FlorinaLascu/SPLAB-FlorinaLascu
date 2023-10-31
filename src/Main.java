@@ -1,25 +1,34 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
+        // Create a list to store books
+        List<Book> books = new ArrayList<>();
+
+        // Create and add books to the list
         Book book1 = new Book("Divergent");
-        Author author1 = new Author("Veronica Rooth");
+        Book book2 = new Book("Harry Potter");
+        Author author2 = new Author("JK Rowling");
+        book2.addAuthor(author2);
 
-        book1.addAuthor(author1);
-        try {
-            int indexCap1 = book1.createChapter("Capitolul 1");
-            Chapter c1 = book1.getChapter(indexCap1);
-            int indexSubcap1 = c1.createSubchapter("Subcapitolul 1.1");
-            Subchapter sc1 = c1.getSubchapter(indexSubcap1);
+        // Create sections for each book
+        Section section1 = new Section("Introduction");
+        Section section2 = new Section("Chapter 1");
+        Section section3 = new Section("Prologue");
+        Section section4 = new Section("Chapter 2");
 
+        book2.add(section1);
 
-            sc1.createNewParagraph("Paragraf 1");
-            sc1.createNewParagraph("Paragraf 2");
-            sc1.createNewImage("Imagine 1");
-            sc1.createNewParagraph("Paragraf 3");
-            sc1.createNewTable("Tabel 1");
+        // Add books to the list
+        books.add(book1);
+        books.add(book2);
 
-            sc1.print();
-        } catch (Exception e) {
-            e.printStackTrace();
+        // Print both books with their sections
+        for (Book book : books) {
+            book.print();
         }
+
+        book1.print();
     }
 }

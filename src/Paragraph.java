@@ -1,7 +1,7 @@
 public class Paragraph implements Element {
 
     private String text;
-    private Subchapter subchapter;
+
 
     public Paragraph(String text) {
         this.text = text;
@@ -14,5 +14,20 @@ public class Paragraph implements Element {
 
     public void print() {
         System.out.println(this);
+    }
+
+    @Override
+    public void add(Element element) {
+
+    }
+
+    @Override
+    public void remove(Element element) {
+
+    }
+
+    @Override
+    public int get(Element element) {
+        return 0;
     }
 }

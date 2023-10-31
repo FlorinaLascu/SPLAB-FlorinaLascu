@@ -1,7 +1,7 @@
 public class Table implements Element{
 
     private String title;
-    private Subchapter subchapter;
+
 
     public Table(String title) {
         this.title = title;
@@ -14,5 +14,20 @@ public class Table implements Element{
 
     public void print() {
         System.out.println(this);
+    }
+
+    @Override
+    public void add(Element element) {
+
+    }
+
+    @Override
+    public void remove(Element element) {
+
+    }
+
+    @Override
+    public int get(Element element) {
+        return 0;
     }
 }
