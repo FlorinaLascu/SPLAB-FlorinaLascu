@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ccae0e6-917e-4273-a0a5-cf3c3e6c3f08" name="Changes" comment="laboratorul 4 ---&gt; proxy 1">
-      <change afterPath="$PROJECT_DIR$/src/AlignCenter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AlignLeft.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AlignRight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AlignStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -77,8 +72,8 @@
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
