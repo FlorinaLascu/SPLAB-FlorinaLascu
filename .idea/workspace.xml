@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ccae0e6-917e-4273-a0a5-cf3c3e6c3f08" name="Changes" comment="laboratorul 3 ---&gt; clase">
-      <change afterPath="$PROJECT_DIR$/src/Section.java" afterDir="false" />
+    <list default="true" id="3ccae0e6-917e-4273-a0a5-cf3c3e6c3f08" name="Changes" comment="laboratorul 4 ---&gt; proxy 1">
+      <change afterPath="$PROJECT_DIR$/src/AlignCenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlignLeft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlignRight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AlignStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Paragraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paragraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Subchapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Table.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +36,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="laborator2" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,11 +74,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -103,6 +98,8 @@
       <workItem from="1698740522494" duration="176000" />
       <workItem from="1698740838346" duration="269000" />
       <workItem from="1698744368884" duration="4266000" />
+      <workItem from="1701769567087" duration="3000" />
+      <workItem from="1702288264317" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="laboratorul 3 ---&gt; clase">
       <created>1698740970326</created>
@@ -122,7 +119,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="laborator5" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
