@@ -34,5 +34,9 @@ public class ImageProxy implements Picture {
         System.out.println("Dimensions: " + dim.getWidth() + " x " + dim.getHeight());
     }
 
+    public void accept(Visitor visitor) {
+        visitor.visitImageProxy(this);
+    }
+
 
 }

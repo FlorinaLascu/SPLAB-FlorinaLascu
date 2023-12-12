@@ -5,4 +5,6 @@ public interface Element {
     public void remove(Element element);
     public int get(Element element);
 
+    public void accept(Visitor visitor);
+
 }

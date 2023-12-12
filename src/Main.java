@@ -57,5 +57,23 @@ public class Main {
       //  }
 
         //book1.print();
+        Section cap1 = new Section("Capitolul 1");
+        Paragraph p1 = new Paragraph("Paragraf 1");
+        cap1.add(p1);
+        Paragraph p2 = new Paragraph("Paragraf 2");
+        cap1.add(p2);
+        Paragraph p3 = new Paragraph("Paragraf 3");
+        cap1.add(p3);
+        Paragraph p4 = new Paragraph("Paragraf 4");
+        cap1.add(p4);
+        RenderContentVisitor rend = new RenderContentVisitor();
+        cap1.accept(rend);
+
+        StatisticsVisitor stat = new StatisticsVisitor();
+        System.out.println("=========Book statistics==========");
+        cap1.accept(stat);
+        stat.printStatistics();
     }
+
+
 }

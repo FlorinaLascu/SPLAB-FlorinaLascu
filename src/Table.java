@@ -30,4 +30,9 @@ public class Table implements Element{
     public int get(Element element) {
         return 0;
     }
+
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.visitTable(this);
+    }
 }
