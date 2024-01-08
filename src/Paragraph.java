@@ -27,6 +27,7 @@ public class Paragraph implements Element {
     @Override
     public void add(Element element) {
 
+
     }
 
     @Override
@@ -37,5 +38,10 @@ public class Paragraph implements Element {
     @Override
     public int get(Element element) {
         return 0;
+    }
+
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.visitParagraph(this);
     }
 }

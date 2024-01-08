@@ -12,13 +12,14 @@ public class Section implements Element{
     @Override
     public void print() {
         System.out.println(title);
-        for (Element e:elements) {
+      /*  for (Element e:elements) {
             e.print();
-        }
+        }*/
     }
 
     @Override
     public void add(Element element) {
+
         elements.add(element);
     }
 
@@ -30,5 +31,13 @@ public class Section implements Element{
     @Override
     public int get(Element element) {
         return 0;
+    }
+
+    @Override
+    public void accept(Visitor visitor) {
+        visitor.visitSection(this);
+        for(Element e: elements ){
+            e.accept(visitor);
+        }
     }
 }

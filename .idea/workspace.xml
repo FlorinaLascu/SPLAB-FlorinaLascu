@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,6 +11,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="Interface" />
       </list>
@@ -31,7 +33,6 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -103,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698740970326</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="laboratorul 5---&gt; strategy pattern">
+      <created>1702373117792</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702373117792</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +143,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="laboratorul 2 ---&gt; clase" />
     <MESSAGE value="laboratorul 3 ---&gt; clase" />
-    <option name="LAST_COMMIT_MESSAGE" value="laboratorul 3 ---&gt; clase" />
+    <MESSAGE value="laboratorul 5---&gt; strategy pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="laboratorul 5---&gt; strategy pattern" />
   </component>
 </project>

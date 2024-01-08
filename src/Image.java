@@ -44,6 +44,11 @@ public class Image implements Element,Picture{
     }
 
     @Override
+    public void accept(Visitor visitor) {
+        visitor.visitImage(this);
+    }
+
+    @Override
     public String url() {
         return null;
     }
@@ -57,4 +62,5 @@ public class Image implements Element,Picture{
     //public PictureContent content() {
       //  return null;
     //}
+
 }
